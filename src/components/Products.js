@@ -1,7 +1,9 @@
+import Navbar from "./Navbar";
+
 function Products() {
     return (
       <>
-        <h1>Hello World</h1>
+        <Navbar />
       </>
     );
   }

@@ -1,0 +1,26 @@
+{
+    "item1" : {
+        "name" : "kit kat",
+        "price" : "10"
+    },
+
+    "item2" : {
+        "name" : "kit kat",
+        "price" : "10"
+    },
+
+    "item3" : {
+        "name" : "kit kat",
+        "price" : "10"
+    },
+
+    "item4" : {
+        "name" : "kit kat",
+        "price" : "10"
+    },
+
+    "item5" : {
+        "name" : "kit kat",
+        "price" : "10"
+    }
+}

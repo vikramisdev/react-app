@@ -1,20 +1,20 @@
-import './Navbar.css'
+import '../components-css/Navbar.css'
 
 function Navbar() {
   return (
     <div className="Navbar Flex">
         <div className="Navbar-Left Flex">
-          <a href="index.html"><li>Home</li></a>
-          <a href="products.html"><li>Products</li></a>
-          <a href="cart.html"><li>Cart</li></a>
+          <a href="/"><li>Home</li></a>
+          <a href="products"><li>Products</li></a>
+          <a href="cart"><li>Cart</li></a>
         </div>
 
         <h3 className="Navbar-Title">ShopAnything</h3>
 
         <div className="Navbar-Right Flex">
           <input className="Navbar-Search" type="search" ></input>
-          <a href="Login.js"><li>Log In</li></a>
-          <a href="signup.html"><li className="Navbar-Signup">Sign Up</li></a>
+          <a href="login"><li>Log In</li></a>
+          <a href="signup"><li className="Navbar-Signup">Sign Up</li></a>
         </div>
     </div>
   );
