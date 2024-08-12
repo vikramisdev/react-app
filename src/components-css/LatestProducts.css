@@ -29,4 +29,6 @@
 
 .latest-product-item:hover, .product-item:hover {
     transform: scale(1.01);
+    cursor: pointer;
 }
+

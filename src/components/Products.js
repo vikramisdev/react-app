@@ -46,6 +46,7 @@ const Products = () => {
                         <strong>{formatter.format(product.price)}</strong>
                       </p>
                     </div>
+
                   </div>
                 ))}
               </div>

@@ -47,44 +47,44 @@
       },
       {
         "id": 4,
-        "name": "4K Ultra HD TV",
-        "price": 49999,
-        "description": "55-inch 4K Ultra HD Smart TV with HDR.",
+        "name": "Acer 127 cm (50 inches)",
+        "price": 27999,
+        "description": "Advanced I Series 4K Ultra HD Smart LED Google TV AR50GR2851UDFL (Black)",
         "image": "4k_tv.jpg"
       },
       {
         "id": 5,
-        "name": "Bluetooth Speaker",
+        "name": "Mivi Play Bluetooth Speaker",
         "price": 8999,
-        "description": "Portable Bluetooth speaker with high-quality sound.",
+        "description": "12 Hours Playtime. Wireless Speaker Made in India with Exceptional Sound Quality, Portable and Built in Mic-Black.",
         "image": "bluetooth_speaker.jpg"
       }
     ],
     "clothes": [
       {
         "id": 6,
-        "name": "Men's Casual Shirt",
+        "name": "FUNKY RICH Funkyrich",
         "price": 2999,
-        "description": "Comfortable and stylish casual shirt for men.",
+        "description": "Textured Popcorn Shirts for Men || Casual Shirt for Men || Shirt for Men|| Men Stylish Half Sleeve Shirt || Men Fancy Shirt",
         "image": "casual_shirt.jpg"
       },
       {
         "id": 7,
-        "name": "Women's Summer Dress",
+        "name": "Leriya Fashion Midi Dress",
         "price": 4999,
-        "description": "Light and airy summer dress for women.",
+        "description": "One Piece Midi Dress For Women| Beach Midi Dress For Women",
         "image": "summer_dress.jpg"
       },
       {
         "id": 8,
-        "name": "Kids' Winter Jacket",
+        "name": "Tricycle Clothing Kids Boys & Girls Unisex",
         "price": 3499,
-        "description": "Warm and durable winter jacket for kids.",
+        "description": "Warm Full Sleeves Reversible Quilted Furr Jacket With Hood",
         "image": "winter_jacket.jpg"
       },
       {
         "id": 9,
-        "name": "Sports Shoes",
+        "name": "NIKE Mens Run Swift 3",
         "price": 4999,
         "description": "Comfortable and stylish sports shoes for all activities.",
         "image": "sports_shoes.jpg"
@@ -93,58 +93,58 @@
     "homeAppliances": [
       {
         "id": 10,
-        "name": "Smart Air Purifier",
+        "name": "Levoit 300S Smart Air Purifier for Home",
         "price": 11999,
-        "description": "Advanced air purifier with smart features.",
+        "description": "HEPA Filter traps 99.97% virus & PM 0.1 Particles, 2 Years Warranty, Real Time Air Quality Indicator, App Control, compatible with Alexa",
         "image": "air_purifier.jpg"
       },
       {
         "id": 11,
-        "name": "Robot Vacuum Cleaner",
+        "name": "ECOVACS DEEBOT Y1 PRO Plus 2-in-1 Robot Vacuum Cleaner",
         "price": 24999,
-        "description": "Efficient robot vacuum cleaner with mapping technology.",
+        "description": "2024 New Launch, 6500 Pa Powerful Suction, 5200 mAh Battery, Covers 3500+ Sq. Ft., Advanced Navigation Technology",
         "image": "robot_vacuum.jpg"
       },
       {
         "id": 12,
-        "name": "Coffee Maker",
+        "name": "Pigeon Brewster Coffee Maker",
         "price": 6999,
-        "description": "Programmable coffee maker with a built-in grinder.",
+        "description": "600 Watt, 4 Cups Drip Coffee maker (Black)",
         "image": "coffee_maker.jpg"
       },
       {
         "id": 13,
-        "name": "Electric Kettle",
+        "name": "Prestige 1.5 Litres Electric Kettle (PKOSS 1.5)|1500W",
         "price": 2999,
-        "description": "Quick-boil electric kettle with temperature settings.",
+        "description": "Silver - Black| Automatic Cut-off | Stainless Steel | Rotatable Base | Power Indicator | Single-Touch Lid Locking",
         "image": "electric_kettle.jpg"
       }
     ],
     "sportsEquipment": [
       {
         "id": 14,
-        "name": "Mountain Bike",
+        "name": "Urban Terrain Galaxy High Performance Steel Mountain Cycles",
         "price": 34999,
-        "description": "Durable mountain bike for outdoor adventures.",
+        "description": "Rigid Fork and Complete Accessories MTB Bike 26T Single Speed | Ideal for 13+ Years, Frame Size : 17 inch, White",
         "image": "mountain_bike.jpg"
       },
       {
         "id": 15,
-        "name": "Yoga Mat",
+        "name": "Boldfit Yoga Mat for Women and Men",
         "price": 1499,
-        "description": "High-quality yoga mat for a comfortable practice.",
+        "description": "Cover Bag TPE Material Extra Thick Exercise Yoga Mat for Men for Workout, Yoga, Fitness, Exercise Mat Anti Slip Mat, Yoga Mat 6mm Gym Mat Dark-Light Blue",
         "image": "yoga_mat.jpg"
       },
       {
         "id": 16,
-        "name": "Tennis Racket",
+        "name": "Vector X Adult Recreational Tennis Rackets",
         "price": 7499,
-        "description": "Professional-grade tennis racket for all levels.",
+        "description": "26 Inch Super Lightweight Tennis Racquets for Student,Training,Tennis and Beginners, Outdoor Games - Grip Size - 4 3/8",
         "image": "tennis_racket.jpg"
       },
       {
         "id": 17,
-        "name": "Dumbbell Set",
+        "name": "5kg Dumbbells Set of 2 | Fitness Gym Dumbbell set for Home Workout | Anti Skid rubber Dumbbell set | Weights for Workout",
         "price": 15999,
         "description": "Adjustable dumbbell set for home workouts.",
         "image": "dumbbell_set.jpg"
@@ -153,14 +153,14 @@
     "beautyAndHealth": [
       {
         "id": 18,
-        "name": "Skincare Serum",
+        "name": "Minimalist 5% Niacinamide Face Serum",
         "price": 2999,
-        "description": "Hydrating serum with anti-aging properties.",
+        "description": "Clear Glowing Skin, Reduces Dullness, Hydrates & Repairs Skin with Vit B3 & Hyaluronic Acid, Day & Night Serum for Dry & Sensitive Skin, For Women & Men,30 ml",
         "image": "skincare_serum.jpg"
       },
       {
         "id": 19,
-        "name": "Electric Toothbrush",
+        "name": "Oral-B iO3 Blue Ultimate Clean Electric Toothbrush",
         "price": 3999,
         "description": "Rechargeable electric toothbrush with multiple settings.",
         "image": "electric_toothbrush.jpg"
@@ -169,16 +169,16 @@
     "booksAndMedia": [
       {
         "id": 20,
-        "name": "Latest Bestseller Novel",
+        "name": "Don't Believe Everything You Think (English)",
         "price": 1599,
         "description": "Top-selling novel of the year.",
         "image": "bestseller_novel.jpg"
       },
       {
         "id": 21,
-        "name": "Documentary DVD Box Set",
+        "name": "Last Passenger: The Ride To Hell (2013) (Uncut | Region 2 DVD",
         "price": 4999,
-        "description": "Collection of award-winning documentaries.",
+        "description": "A small group of everyday passengers on a speeding London commuter train battle their warped driver who has a dark plan for everyone on-board.",
         "image": "documentary_dvd.jpg"
       }
     ]
