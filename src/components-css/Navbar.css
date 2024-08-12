@@ -2,7 +2,7 @@
 
 .Navbar {
     height: 80px;
-    background: ghostwhite;
+    background: rgb(243, 243, 255);
     box-shadow: 1px 0px 10px rgba(0,0,0,0.2);
     align-items: center;
     justify-content: space-between;
