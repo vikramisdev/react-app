@@ -1,0 +1,17 @@
+/* Filename: styles.css */
+
+
+.footer-container {
+    background-color: black;
+    padding: 40px;
+}
+
+.footer-section {
+    padding: 20px 0px;
+    color: white;
+}
+
+.social-media-links a {
+  margin-right: 20px;
+  color: white;
+}

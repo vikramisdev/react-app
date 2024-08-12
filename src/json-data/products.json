@@ -1,26 +1,186 @@
 {
-    "item1" : {
-        "name" : "kit kat",
-        "price" : "10"
-    },
-
-    "item2" : {
-        "name" : "kit kat",
-        "price" : "10"
-    },
-
-    "item3" : {
-        "name" : "kit kat",
-        "price" : "10"
-    },
-
-    "item4" : {
-        "name" : "kit kat",
-        "price" : "10"
-    },
-
-    "item5" : {
-        "name" : "kit kat",
-        "price" : "10"
-    }
+  "products": {
+    "latestProducts": [
+      {
+        "id": 1,
+        "name": "Apple 2024 MacBook Air",
+        "price": 122990,
+        "description": "13″ Laptop with M3 chip: 34.46 cm (13.6″) Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID - Space Grey",
+        "image": "latest_laptop.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Apple iPhone 15 (128 GB) - Black",
+        "price": 70900,
+        "description": "A sleek and modern smartphone with a great camera.",
+        "image": "latest_smartphone.jpg"
+      },
+      {
+        "id": 3,
+        "name": "New Apple AirPods Max - Silver",
+        "price": 59900,
+        "description": "Noise-cancelling headphones for an immersive audio experience.",
+        "image": "latest_headphones.jpg"
+      }
+    ],
+    "electronics": [
+      {
+        "id": 1,
+        "name": "Lenovo LOQ",
+        "price": 122990,
+        "description": "13″ Laptop with M3 chip: 34.46 cm (13.6″) Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID - Space Grey",
+        "image": "latest_laptop.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Apple iPhone 15 (128 GB) - Black",
+        "price": 70900,
+        "description": "A sleek and modern smartphone with a great camera.",
+        "image": "latest_smartphone.jpg"
+      },
+      {
+        "id": 3,
+        "name": "New Apple AirPods Max - Silver",
+        "price": 59900,
+        "description": "Noise-cancelling headphones for an immersive audio experience.",
+        "image": "latest_headphones.jpg"
+      },
+      {
+        "id": 4,
+        "name": "4K Ultra HD TV",
+        "price": 49999,
+        "description": "55-inch 4K Ultra HD Smart TV with HDR.",
+        "image": "4k_tv.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Bluetooth Speaker",
+        "price": 8999,
+        "description": "Portable Bluetooth speaker with high-quality sound.",
+        "image": "bluetooth_speaker.jpg"
+      }
+    ],
+    "clothes": [
+      {
+        "id": 6,
+        "name": "Men's Casual Shirt",
+        "price": 2999,
+        "description": "Comfortable and stylish casual shirt for men.",
+        "image": "casual_shirt.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Women's Summer Dress",
+        "price": 4999,
+        "description": "Light and airy summer dress for women.",
+        "image": "summer_dress.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Kids' Winter Jacket",
+        "price": 3499,
+        "description": "Warm and durable winter jacket for kids.",
+        "image": "winter_jacket.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Sports Shoes",
+        "price": 4999,
+        "description": "Comfortable and stylish sports shoes for all activities.",
+        "image": "sports_shoes.jpg"
+      }
+    ],
+    "homeAppliances": [
+      {
+        "id": 10,
+        "name": "Smart Air Purifier",
+        "price": 11999,
+        "description": "Advanced air purifier with smart features.",
+        "image": "air_purifier.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Robot Vacuum Cleaner",
+        "price": 24999,
+        "description": "Efficient robot vacuum cleaner with mapping technology.",
+        "image": "robot_vacuum.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Coffee Maker",
+        "price": 6999,
+        "description": "Programmable coffee maker with a built-in grinder.",
+        "image": "coffee_maker.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Electric Kettle",
+        "price": 2999,
+        "description": "Quick-boil electric kettle with temperature settings.",
+        "image": "electric_kettle.jpg"
+      }
+    ],
+    "sportsEquipment": [
+      {
+        "id": 14,
+        "name": "Mountain Bike",
+        "price": 34999,
+        "description": "Durable mountain bike for outdoor adventures.",
+        "image": "mountain_bike.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Yoga Mat",
+        "price": 1499,
+        "description": "High-quality yoga mat for a comfortable practice.",
+        "image": "yoga_mat.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Tennis Racket",
+        "price": 7499,
+        "description": "Professional-grade tennis racket for all levels.",
+        "image": "tennis_racket.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Dumbbell Set",
+        "price": 15999,
+        "description": "Adjustable dumbbell set for home workouts.",
+        "image": "dumbbell_set.jpg"
+      }
+    ],
+    "beautyAndHealth": [
+      {
+        "id": 18,
+        "name": "Skincare Serum",
+        "price": 2999,
+        "description": "Hydrating serum with anti-aging properties.",
+        "image": "skincare_serum.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Electric Toothbrush",
+        "price": 3999,
+        "description": "Rechargeable electric toothbrush with multiple settings.",
+        "image": "electric_toothbrush.jpg"
+      }
+    ],
+    "booksAndMedia": [
+      {
+        "id": 20,
+        "name": "Latest Bestseller Novel",
+        "price": 1599,
+        "description": "Top-selling novel of the year.",
+        "image": "bestseller_novel.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Documentary DVD Box Set",
+        "price": 4999,
+        "description": "Collection of award-winning documentaries.",
+        "image": "documentary_dvd.jpg"
+      }
+    ]
+  }
 }

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300');
+
 .Navbar {
     height: 80px;
     background: ghostwhite;
-    box-shadow: 2px 0px 10px rgba(0,0,0,0.4);
+    box-shadow: 1px 0px 10px rgba(0,0,0,0.2);
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
@@ -22,7 +24,7 @@ a {
 .Navbar-Left {
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
 }
 
 .Navbar-Search {
@@ -30,15 +32,26 @@ a {
     width: 240px;
     border: none;
     border-radius: 50px;
-    padding: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.Navbar-Btn {
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.Navbar-Btn:hover {
+    background-color: white;
 }
 
 .Navbar-Search:focus {
-    outline: 2px solid orange;
+    outline: none;
 }
 
 .Navbar-Title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .Navbar-Signup {
@@ -57,3 +70,19 @@ li {
 .Flex {
     display: flex;
 }
+
+.Navbar-LoggedOut {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+}
+
+.Navbar-Container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    padding: 0px 20px;
+}
+
