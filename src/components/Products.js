@@ -11,6 +11,10 @@ const Products = () => {
     currency: "INR",
   });
 
+  const openProductView = () => {
+    window.open("productview", "_self");
+  }
+
   const categories = productsData.products;
 
   return (
@@ -33,7 +37,7 @@ const Products = () => {
               </h1>
               <div className="product-list">
                 {categories[category].map((product) => (
-                  <div key={product.id} className="product-item">
+                  <div onClick={openProductView} key={product.id} className="product-item">
                     <img
                       className="product-image"
                       src={`/images/${product.image}`}

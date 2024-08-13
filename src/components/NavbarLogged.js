@@ -1,5 +1,6 @@
 import "../components-css/Navbar.css";
 import { Search } from "react-bootstrap-icons";
+import Footer from "./Footer";
 
 function NavbarLogged() {
   const handleKeyDown = (event) => {
@@ -10,15 +11,16 @@ function NavbarLogged() {
   }
 
   return (
+    <>
     <div className="Navbar Flex">
       <div className="Navbar-Left Flex">
-        <a href="/">
+        <a className="Navbar-Btn" href="/">
           <li>Home</li>
         </a>
-        <a href="products">
+        <a className="Navbar-Btn" href="products">
           <li>Products</li>
         </a>
-        <a href="cart">
+        <a className="Navbar-Btn" href="cart">
           <li>Cart</li>
         </a>
       </div>
@@ -40,6 +42,7 @@ function NavbarLogged() {
         </a>
       </div>
     </div>
+    </>
   );
 }
 

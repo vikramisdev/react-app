@@ -14,12 +14,18 @@ const LatestProducts = () => {
     currency: 'INR',
   });
 
+  const openProductView = (event) => {
+    const productId = event.currentTarget.getAttribute('item-key');
+    window.open(`productview/latestProducts/${productId}`, "_self");
+
+  }
+
   return (
     <div>
       <h1 className="latest-product-header">Latest Products</h1>
       <div className="latest-product-list">
         {products.map((product) => (
-          <div key={product.id} className="latest-product-item">
+          <div onClick={openProductView} item-key={product.id} key={product.id} className="latest-product-item">
             <img
               className="latest-product-image"
               src={`/images/${product.image}`}

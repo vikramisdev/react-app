@@ -1,0 +1,54 @@
+.login-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("D:\react\react-app\public\images\shopping-bag-cart.jpg");
+}
+
+.login-form {
+    padding: 20px 40px 40px 40px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.login-form input {
+    border: none;
+}
+
+.login-form input[type="email"], .login-form input[type="password"] {
+    width: 3in;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 5px 0px;
+    background-color: rgba(250, 200, 114, 0.126);
+    font-size: 14px;
+}
+
+.login-form input[type="email"]:focus, .login-form input[type="password"]:focus {
+    outline: none;
+}
+
+.login-form input[type="submit"] {
+
+}
+
+.login-title {
+    margin-bottom: 40px;
+}
+
+.login-submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-submit-container input {
+    border-radius: 40px;
+    background-color: orangered;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
