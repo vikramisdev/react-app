@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("D:\react\react-app\public\images\shopping-bag-cart.jpg");
+    background: url("images/shopping-bag-cart.jpg");
 }
 
 .login-form {
