@@ -44,11 +44,12 @@
     justify-content: center;
 }
 
-.login-submit-container input {
+.login-submit-container button {
     border-radius: 40px;
     background-color: orangered;
     color: white;
     padding: 15px 25px;
     cursor: pointer;
     font-size: 16px;
+    border: none;
 }

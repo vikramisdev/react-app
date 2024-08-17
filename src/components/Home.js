@@ -3,10 +3,10 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import NavbarLogged from "./NavbarLogged";
 
-function Home({ loggedin }) {
+function Home({ loginStatus, setLoggedIn, setLoggedOut, setProductName}) {
   return (
     <>
-      {loggedin ? <NavbarLogged /> : <Navbar />}
+      {loginStatus ? <NavbarLogged loginStatus={loginStatus} setLoggedOut={setLoggedOut}/> : <Navbar loginStatus={loginStatus} setLoggedIn={setLoggedIn} setProductName={setProductName}/>}
       <LatestProducts />
       <Footer />
     </>

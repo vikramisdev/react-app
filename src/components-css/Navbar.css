@@ -36,10 +36,15 @@ a {
     font-size: 16px;
 }
 
+.Navbar-Search::placeholder {
+    user-select: none;
+}
+
 
 .Navbar-Btn {
     padding: 10px 20px;
     border-radius: 40px;
+    user-select: none;
 }
 
 .Navbar-Btn:hover {
@@ -52,6 +57,7 @@ a {
 
 .Navbar-Title {
     font-family: 'Comfortaa', sans-serif;
+    user-select: none;
 }
 
 .Navbar-Signup {
@@ -59,6 +65,7 @@ a {
     background-color: black;
     color: white;
     border-radius: 50px;
+    user-select: none;
 }
 
 li {

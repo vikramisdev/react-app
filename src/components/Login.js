@@ -2,32 +2,38 @@ import Navbar from "./Navbar";
 import NavbarLogged from "./NavbarLogged";
 import "../components-css/Login.css";
 import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 
-function Login({ loggedin }) {
-  function handleLogin(e) {
-    alert("Login Success!");
+function Login({ loginStatus, setLoggedIn, setProductName }) {
+  const navigate = useNavigate();
+
+  const handleLogIn = (event) => {
+    event.preventDefault();
+    setLoggedIn();
+    navigate("/");
   }
 
   return (
     <>
-      {loggedin ? <NavbarLogged /> : <Navbar />}
+      {loginStatus ? <NavbarLogged /> : <Navbar />}
+
       <div className="login-container">
-        <form className="login-form">
+        <form className="login-form" onSubmit={handleLogIn}>
           <h2 className="login-title">Log In</h2>
           <label>Email</label>
           <br />
-          <input type="email"></input>
+          <input type="email" required></input>
           <br />
           <br />
 
           <label>Password</label>
           <br />
-          <input type="password"></input>
+          <input type="password" required></input>
           <br />
           <br />
 
           <div className="login-submit-container">
-            <input onSubmit={handleLogin} type="submit" value="Login" />
+            <button type="submit" >Log In</button>
           </div>
         </form>
       </div>

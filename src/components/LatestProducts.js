@@ -1,9 +1,11 @@
 import React from "react";
 import productsData from "../json-data/products.json";
 import "../components-css/LatestProducts.css";
+import { useNavigate } from "react-router-dom";
 
 const LatestProducts = () => {
   const products = productsData.products.latestProducts;
+  const navigate = useNavigate();
 
   if (!Array.isArray(products)) {
     return <div>Error: Products data is not an array</div>;
@@ -16,8 +18,7 @@ const LatestProducts = () => {
 
   const openProductView = (event) => {
     const productId = event.currentTarget.getAttribute('item-key');
-    window.open(`productview/latestProducts/${productId}`, "_self");
-
+    navigate(`productview/latestProducts/${productId}`);
   }
 
   return (

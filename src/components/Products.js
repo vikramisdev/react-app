@@ -1,64 +1,49 @@
 import Navbar from "./Navbar";
-
-import React from "react";
-import productsData from "../json-data/products.json";
+import React, { useState } from "react";
 import "../components-css/LatestProducts.css";
 import Footer from "./Footer";
+import ProductList from "./ProductList";
+import NavbarLogged from "./NavbarLogged";
 
-const Products = () => {
-  const formatter = new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "INR",
-  });
+const Products = ({ loginStatus, setLoggedIn, setLoggedOut, setProductName }) => {
+  const [itemPrice, setItemPrice] = useState("");
+  const [itemCategory, setItemCategory] = useState("");
 
-  const openProductView = () => {
-    window.open("productview", "_self");
-  }
+  const updateFilters = () => {
+    const price = document.getElementById("price").value;
+    const category = document.querySelector('select').value;
 
-  const categories = productsData.products;
+    setItemPrice(price);
+    setItemCategory(category);
+  };
 
   return (
     <>
-      <Navbar />
+      {loginStatus ? <NavbarLogged loginStatus={loginStatus} setLoggedOut={setLoggedOut} setProductName={setProductName}/> : <Navbar loginStatus={loginStatus} setLoggedIn={setLoggedIn} setProductName={setProductName}/>}
 
-      <div className="product-categories">
-        {Object.keys(categories).map((category) => {
-          if (category === "latestProducts") {
-            return null; // Skip the latestProducts category
-          }
-
-          return (
-            <div key={category} className="category-section">
-              <h1 className="product-header">
-                {category
-                  .replace(/([A-Z])/g, " $1")
-                  .trim()
-                  .toUpperCase()}
-              </h1>
-              <div className="product-list">
-                {categories[category].map((product) => (
-                  <div onClick={openProductView} key={product.id} className="product-item">
-                    <img
-                      className="product-image"
-                      src={`/images/${product.image}`}
-                      alt={product.name}
-                    />
-                    <div className="product-desc">
-                      <h2>{product.name}</h2>
-                      <p>{product.description}</p>
-                      <p>
-                        <strong>{formatter.format(product.price)}</strong>
-                      </p>
-                    </div>
-
-                  </div>
-                ))}
-              </div>
-            </div>
-          );
-        })}
+      <div className="filter-container">
+        <div className="range-filter-container">
+          <p>Filters: </p>
+          <input
+          id="price"
+            type="number"
+            min={1}
+            placeholder="Set Price"
+            onChange={updateFilters}
+          />
+        </div>
+        <select id="select" onChange={updateFilters}>
+          <option value="">All</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Clothes">Clothes</option>
+          <option value="Home Appliances">Home Appliances</option>
+          <option value="Sports Equipment">Sports Equipment</option>
+          <option value="Beauty & Health">Beauty and Health</option>
+          <option value="Books & Media">Books and Media</option>
+        </select>
       </div>
 
+      <ProductList itemPrice={itemPrice} itemCategory={itemCategory} />
       <Footer />
     </>
   );
